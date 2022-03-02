@@ -30,7 +30,7 @@ color: #ffffff
 border-radius:5px;
 text-align:center;
 margin-top:2px;
-padding: 5px 15 px;
+padding: 5px 15px;
 }
   
 #button:hover{
@@ -47,22 +47,28 @@ padding: 5px;
  color: #000;
   }
   
- ol li:nth-child(even) {
-   background:#dfdfdf;
-  }
-  
- .strike{
-   text-decoration: line-through;
-  }
-  
-  li:hover{
-    cursor: pointer;
-  }
-  
-  .delete {
-    display: none;
-  }
-  
-  li > crossOutButton 
+ol li:nth-child(even){
+background:#dfdfdf;
+}
+
+.strike{
+text-decoration: line-through;
+}
+
+li:hover{
+cursor: pointer;
+}
+
+.delete{
+display: none;
+}
+
+li > crossOutButton{
+background: none;
+border: none;
+float: right;
+color: #025f70;
+font-weight: 800;
+}
     
   
